@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(85, 134, 85);
+}
+
+header {
+    background-image: linear-gradient(to top, rgb(0 58 13) 1%, #1fb731 80% );
+    padding: 5px;
+}
+
+header > h1 {
+    font-family: fantasy;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    font-size: normal;
+    color: white;
+    text-shadow: 3px 3px 6px #000000a8;
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.753);
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 550;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.151);
+}
+
+main {
+    max-width: 850px;
+    background-color: white;
+    padding: 1px 10px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main > h2 {
+    font-family: android, serif;
+    color: darkgreen;
+}
+
+main > h3 {
+    font-family: android, serif;
+    color: darkgreen;
+    background-image: linear-gradient(to right, #8feb8f, white);
+}
+
+body > main > p > strong {
+    color: darkgreen;
+
+}
+
+main > p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+main > p > a {
+    color: darkgreen;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main > p > a:hover {
+    text-decoration: underline;
+}
+
+main > picture > img {
+    display: block;
+    margin: 0px auto;
+}
+
+main > div#video {
+    background: rgb(0, 56, 0); 
+    padding: 1px 20px;
+}
+
+main > div > iframe {
+    margin: 20px auto;
+    width: 100%;
+
+}
+
+main > div#div2 {
+    background-color: lightgreen;
+    padding-bottom: 5px;
+    border-radius: 8px 8px;
+    box-shadow: 3px 3px 6px 0px #000000e0;
+}
+
+main > div > h4#h41 {
+    background-color: #00852c;
+    color: white;
+    padding: 10px;
+    margin-bottom: 14px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+main > div#div2 > p {
+    text-align: justify;
+    text-indent: 20px;
+    margin-top: 0px;
+    padding: 0px 15px;
+}
+
+ul {
+    list-style-image: url(Imagens/correct1.png);
+    display: inline-block;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+ul#androidv {
+    margin: 0px 30px;
+}
+
+main > div > p > a {
+    color: darkgreen;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main > div > p > a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(0, 61, 0);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 20px 0px 0px 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
